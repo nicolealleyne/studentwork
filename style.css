@@ -1,0 +1,1402 @@
+@charset "UTF-8";
+/* MYERS RESET*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* END MYERS RESET*/
+
+
+body {
+	
+	background-color:white;
+	}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+
+
+/* Mobile Layout: 480px and below. */
+ 
+   .menuall{
+        padding-left: 0px;
+        padding-top: 40px;
+        
+    }
+    
+    
+    ul {
+  width: 96%;
+  margin: 0px auto;
+  overflow: auto;
+  list-style: none;
+}
+
+li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*links*/
+.menu:link {
+	color: black;
+	text-decoration: none;
+}
+.menu:visited {
+	text-decoration: none;
+	color: black;
+}
+.menu:hover {
+	text-decoration: none;
+	color: darkseagreen;
+}
+.menu:active {
+	text-decoration: none;
+	color: #dcec42;
+}
+
+
+
+ /* page 1 home*/
+
+#container {
+		max-width: 89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+   
+	.header {
+        
+		width: 100%;
+		background-image: url(images/mainlast1.jpg);
+		 background-repeat: no-repeat;
+		background-size: 100%;
+		margin: auto 0;
+		height: 50.000em;
+	}
+     
+   
+    
+    .button {
+	background-color: #f7f9f8;
+	width: 30%;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+        text-decoration: none;
+        color: black;
+		
+      
+		
+    }
+	.button-wrap {
+		text-align: center;
+		margin-top: 30%;
+}
+    
+   .button:hover {
+	background-color: darkseagreen;	
+}
+    
+  
+	.centre {
+		width: 100%;
+		margin-top: -35.500em;
+		
+		
+	}
+    
+    .left {
+        height: 490px;
+        width: 100%;
+        float:left;
+       
+       
+        
+    }
+     .maincentre1{
+       background-color: #f7f9f8;
+        height: 180px;
+        width: 100%;
+        float: right;
+         
+    }
+    
+    
+    
+    .textcentre {
+        text-align: center;
+        margin-top: 80px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    
+
+     .mainleft {
+        background-image: url(images/smooth.jpg);
+		 background-color: white;
+        height: 600px;
+        width: 100%;
+		 background-size: 100%;
+        background-repeat: no-repeat;
+        float:right;
+         
+    }
+
+   
+    
+    .lefttext {
+        color: black;
+       margin-top: 0px;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        
+    }
+    
+    .lefttext:hover {
+        color: darkseagreen;
+    }
+    
+    
+    .text-wrap{
+        padding-top: 40px;
+		text-align: center;
+        
+    }
+    
+    
+    .mainright {
+        background-image:url(images/avooo1.jpg);
+        background-color: #d6e169;
+        height: 300px;
+        width: 100%;
+        float:right;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+    
+	
+    .mainlow {
+        background-image:url(images/dry%20copy.jpg);
+        height: 160px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        clear: both;
+    }
+	
+
+/* Page 2 Recipes*/
+    
+    #container2 {
+		max-width:89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+        background-color: white;
+	}
+    
+    
+    
+    .name {
+        color: black;
+        text-align: center;
+            font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .fruits{
+        width: 90%;
+		height: 500px;
+		margin: 0 auto;
+        margin-bottom: 10px;
+        
+    }
+    
+    .recipep1 {
+        background-image: url(images/smooth1.jpg);
+        width: 100%;
+		height: 290px;
+		float: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    h2 {
+        float: left;
+       
+        color: black;
+        font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+    .bananatext {
+        float: left;
+        width: 100%;
+        color: black;
+        font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        margin-top: 5px;
+        line-height: 25px;
+    }
+    
+    .bananaRM {
+        padding-top: 20px;
+        width: 100%;
+		color: forestgreen;
+        float: left;
+        margin-left: 20px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        font-weight: 600;
+        
+    }
+    
+    .bananaRM:hover {
+        color: darkseagreen;
+        
+    }
+    
+    .recipep2 {
+        background-image: url(images/cake1.jpg);
+        width: 100%;
+		height: 290px;
+		float: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+/* page 3 Nutrition facts */
+	
+    .name {
+        color: black;
+        text-align: center;
+            font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+     h1 {
+    	font-size: 16px;
+       margin-bottom: 4px;
+		margin-top: 3px;
+		font-weight: 600;
+		font-family: 'Raleway', sans-serif;
+    }
+    
+	p {
+		font-size: 14px;
+       margin-bottom: 3px;
+		
+		font-family: 'Raleway', sans-serif;
+	}
+    
+
+
+
+    #container2 {
+		max-width:89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+        background-color: white;
+	}
+    
+    .fruitsdecr{
+        
+        width: 100%;
+        
+        margin: 0 auto;
+    }
+    
+    .recipebox1 {
+        width : 100%;
+        height: 39.375em;
+        float: left;
+    }
+    .recipe1 {
+        background-image: url(images/waterm.jpeg);
+        height: 22.500em;
+        width: 100%;
+        float:left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .recdesription {
+        height: 200px;
+        background-color: antiquewhite;
+        padding: 30px;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        width: 90%;
+        float:left;
+    }
+    
+    
+      .recipebox2 {
+        width : 100%;
+        height: 39.375em;
+        float: left;
+          margin-left: 0%;
+          
+    }
+    .recipe2 {
+       background-image: url(images/avooo12.jpg);
+        height: 22.500em;
+        width: 100%;
+        float:left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+  
+    
+    
+      .recipebox3 {
+        width : 100%;
+        height: 39.375em;
+        float: left;
+          
+    }
+    .recipe3 {
+        background-image: url(images/papaya.jpg);
+        height: 22.500em;
+        width: 100%;
+        float:left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+    
+    
+	
+	  .recipebox4 {
+        width : 100%;
+        height: 39.375em;
+        float: left;
+		margin-top: 0px; 
+    }
+    .recipe4 {
+        background-image: url(images/pineap1.jpg);
+        height: 22.500em;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+	
+	
+	     .recipebox5 {
+        width : 100%;
+        height: 39.375em;
+        float: left;
+          margin-left: 0%;
+			 margin-top: 0px; 
+    }
+    .recipe5 {
+       background-image: url(images/avooo12.jpg);
+        height: 22.500em;
+        width: 100%;
+         background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+  
+    
+    
+      .recipebox6 {
+        width : 100%;
+        height: 39.375em;
+        float: right;
+		  margin-top: 0px; 
+          
+    }
+    .recipe6 {
+        background-image: url(images/papaya.jpg);
+        height: 22.500em;
+        width: 100%;
+         background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+	.toolbar2 {
+		height:5.000em;
+		background-color: white;
+		width: 100%;
+		clear: both;
+	}
+
+/* page 4 desription */
+
+.photopage4 {
+        width: 62%;
+        height: 8.250em;
+        background-image: url(images/avo3.jpg);
+        margin: 0 auto;
+        background-repeat: no-repeat;
+         background-size: contain;
+    }
+    
+    .textpage4 {
+        width: 74%;
+        line-height: 25px;
+        font-size: 18px;
+        color: black;
+        margin-left: 11%;
+        padding: 10px;
+    }
+ /* Page 5*/
+    
+    .photopage5 {
+        width: 62%;
+        height: 14.750em;
+        background-image: url(images/smoo1.jpeg);
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+    
+ .menuall{
+        padding-left: 100px;
+        padding-top: 40px;
+        
+    }
+    
+    
+    ul {
+  width: 96%;
+  margin: 0px auto;
+  overflow: auto;
+  list-style: none;
+}
+
+li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*links*/
+.menu:link {
+	color: black;
+	text-decoration: none;
+}
+.menu:visited {
+	text-decoration: none;
+	color: black;
+}
+.menu:hover {
+	text-decoration: none;
+	color: darkseagreen;
+}
+.menu:active {
+	text-decoration: none;
+	color: #dcec42;
+}
+ 
+	
+    .name {
+        color: black;
+        text-align: center;
+            font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+     h1 {
+    	font-size: 16px;
+       margin-bottom: 4px;
+		margin-top: 3px;
+		font-weight: 600;
+		font-family: 'Raleway', sans-serif;
+    }
+    
+	p {
+		font-size: 14px;
+       margin-bottom: 3px;
+		
+		font-family: 'Raleway', sans-serif;
+	}
+    
+    /* Page 1 Home*/
+    
+    #container {
+		max-width: 89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+   
+	.header {
+		width: 100%;
+		background-image: url(images/mainlast1.jpg);
+		 background-repeat: no-repeat;
+		background-size: 100%;
+		margin: auto 0;
+		height: 50.000em;
+	}
+     
+   
+    
+    .button {
+	background-color: #f7f9f8;
+	width: 30%;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+        text-decoration: none;
+        color: black;
+		
+      
+		
+    }
+	.button-wrap {
+		text-align: center;
+		margin-top: 30%;
+}
+    
+   .button:hover {
+	background-color: darkseagreen;	
+}
+    
+  
+	.centre {
+		width: 100%;
+		margin-top: -22.500em;
+		
+		
+	}
+    
+    .left {
+        height: 780px;
+        width: 100%;
+        float:left;
+       
+       
+        
+    }
+     .maincentre1{
+       background-color: #f7f9f8;
+        height: 180px;
+        width: 100%;
+        float: right;
+         
+    }
+    
+    
+    
+    .textcentre {
+        text-align: center;
+        margin-top: 80px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    
+    
+     .mainleft {
+        background-image: url(images/smooth.jpg);
+		 background-color: white;
+        height: 37.500em;
+        width: 100%;
+		 background-size: 100%;
+        background-repeat: no-repeat;
+        float:right;
+         
+    }
+
+   
+    
+    .lefttext {
+        color: black;
+       margin-top: 0px;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        
+    }
+    
+    .lefttext:hover {
+        color: darkseagreen;
+    }
+    
+    
+    .text-wrap{
+        padding-top: 40px;
+		text-align: center;
+        
+    }
+    
+    
+    .mainright {
+        background-image:url(images/avooo1.jpg);
+        background-color: #d6e169;
+        height: 580px;
+        width: 100%;
+        float:right;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+    
+	
+    .mainlow {
+        background-image:url(images/dry%20copy.jpg);
+        height: 320px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        clear: both;
+    }
+	
+    
+    
+    
+    /* Page 2 Recipes*/
+    
+    #container2 {
+		max-width:89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+        background-color: white;
+	}
+    
+    
+    
+    .name {
+        color: black;
+        text-align: center;
+            font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .fruits{
+        width: 90%;
+		height: 400px;
+		margin: 0 auto;
+        margin-bottom: 10px;
+        
+    }
+    
+    .recipep1 {
+        background-image: url(images/smooth1.jpg);
+        width: 50%;
+		height: 400px;
+		float: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    h2 {
+        float: left;
+        width: 40%;
+        color: black;
+        font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+    .bananatext {
+        float: left;
+        width: 40%;
+        color: black;
+        font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        margin-top: 5px;
+        line-height: 25px;
+    }
+    
+    .bananaRM {
+        padding-top: 20px;
+        width: 20%;
+		color: forestgreen;
+        float: left;
+        margin-left: 20px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        font-weight: 600;
+        
+    }
+    
+    .bananaRM:hover {
+        color: darkseagreen;
+        
+    }
+    
+    .recipep2 {
+        background-image: url(images/cake1.jpg);
+        width: 50%;
+		height: 400px;
+		float: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    
+
+    
+    /* Page 3 Nutrition Facts */
+    
+
+    
+    
+    
+     #container2 {
+		max-width: 89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+        background-color: white;
+	}
+    
+    .fruitsdecr{
+        
+        width:99% ;
+        
+        margin: 0 auto;
+    }
+    
+    .recipebox1 {
+        width : 100%;
+        height: 23.750em;
+        
+        
+        float: left;
+    }
+    .recipe1 {
+        background-image: url(images/waterm.jpeg);
+        height: 22.500em;
+        width: 47%;
+        float:left;
+        background-repeat: no-repeat;
+        
+        
+    }
+    
+    .recdesription {
+        height: 300px;
+        background-color: antiquewhite;
+        padding: 30px;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        width: 40%;
+        float: left;
+        background-size: cover;
+    }
+    
+      .recipebox2 {
+        width : 100%;
+        height: 23.750em;
+        float: left;
+          margin-left: 0%;
+    }
+    .recipe2 {
+       background-image: url(images/avooo12.jpg);
+        height: 22.500em;
+        width: 47%;
+        float:left;
+        
+    }
+    
+.recipebox3 {
+        width : 100%;
+        height: 23.750em;
+        float: right;
+          
+    }
+    .recipe3 {
+        background-image: url(images/papaya.jpg);
+        height: 22.500em;
+        width: 47%;
+        float:left;
+        
+    }
+   
+    
+    
+    .recipebox4 {
+        width : 100%;
+        height: 23.750em;
+        float: left;
+		margin-top: 0px; 
+    }
+    .recipe4 {
+        background-image: url(images/pine1.jpg);
+        height: 22.500em;
+        width: 47%;
+        float:left;
+        
+    }
+	
+	
+	     .recipebox5 {
+        width : 100%;
+        height: 23.750em;
+        float: left;
+          margin-left: 0%;
+			 margin-top: 0px; 
+    }
+    .recipe5 {
+       background-image: url(images/avooo12.jpg);
+        height: 22.500em;
+        width: 47%;
+        float: left;
+        
+        
+    }
+    
+  
+    
+    
+      .recipebox6 {
+        width : 100%;
+        height: 23.750em;
+        float: left;
+		  margin-top: 0px; 
+          
+    }
+    .recipe6 {
+        background-image: url(images/papaya.jpg);
+        height: 22.500em;
+        width: 47%;
+        float: left;
+    }
+    
+    
+	.toolbar2 {
+		height:80px;
+		background-color: white;
+		width: 100%;
+		clear: both;
+	}
+    
+    /* page 4 description*/
+   
+     .photopage4 {
+        width: 62%;
+        height: 18.250em;
+        background-image: url(images/avo3.jpg);
+        margin: 0 auto;
+        background-repeat: no-repeat;
+         background-size: contain;
+    }
+    
+    .textpage4 {
+        width: 74%;
+        line-height: 25px;
+        font-size: 18px;
+        color: black;
+        margin-left: 11%;
+        padding: 10px;
+    }
+    
+    /* Page 5*/
+    
+    .photopage5 {
+        width: 62%;
+        height: 14.750em;
+        background-image: url(images/smoo1.jpeg);
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+	
+}
+
+/* Desktop Layout: 769px to a max of 1432px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+     
+	#container {
+		max-width:89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+   
+	.header {
+		width: 100%;
+		background-image: url(images/mainlast1.jpg);
+		 background-repeat: no-repeat;
+		
+		margin: auto 0;
+		
+	}
+    .menuall{
+        padding-left: 200px;
+        padding-top: 40px;
+        
+    }
+    
+    
+    ul {
+  width: 96%;
+  margin: 0px auto;
+  overflow: auto;
+  list-style: none;
+}
+
+li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*links*/
+.menu:link {
+	color: black;
+	text-decoration: none;
+}
+.menu:visited {
+	text-decoration: none;
+	color: black;
+}
+.menu:hover {
+	text-decoration: none;
+	color: darkseagreen;
+}
+.menu:active {
+	text-decoration: none;
+	color: #dcec42;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .button {
+	background-color: #f7f9f8;
+	width: 30%;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+        text-decoration: none;
+        color: black;
+		
+      
+		
+    }
+	.button-wrap {
+		text-align: center;
+		margin-top: 30%;
+}
+    
+   .button:hover {
+	background-color: darkseagreen;	
+}
+    
+    
+	.centre {
+		width: 100%;
+		margin-top: -11.875em;
+		
+		
+	}
+    
+    .left {
+        height: 780px;
+        width: 50%;
+        float:left;
+       
+       
+        
+    }
+     .maincentre1{
+       background-color: #f7f9f8;
+        height: 180px;
+        width: 60%;
+        float: right;
+         
+    }
+    
+    
+    
+    .textcentre {
+        text-align: center;
+        margin-top: 80px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    
+   
+     .mainleft {
+        background-image: url(images/smooth.jpg);
+		 background-color: white;
+        height: 600px;
+        width: 100%;
+		 background-size: 100%;
+        background-repeat: no-repeat;
+        float:right;
+         
+    }
+
+   
+    
+    .lefttext {
+        color: black;
+       margin-top: 0px;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        
+    }
+    
+    .lefttext:hover {
+        color: darkseagreen;
+    }
+    
+    
+    .text-wrap{
+        padding-top: 50px;
+		text-align: center;
+        
+    }
+    
+    
+    .mainright {
+        background-image:url(images/avooo1.jpg);
+        background-color: #d6e169;
+        height: 780px;
+        width: 50%;
+        float:right;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+    
+	
+    .mainlow {
+        background-image:url(images/dry%20copy.jpg);
+        height: 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        clear: both;
+    }
+	
+    
+    
+
+    
+    /* Page 2 */
+    
+    #container2 {
+		max-width:89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+        background-color: white;
+	}
+    
+    
+    
+    .name {
+        color: black;
+        text-align: center;
+            font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .fruits{
+        width: 70%;
+		height: 400px;
+		margin: 0 auto;
+        margin-bottom: 10px;
+        
+    }
+    
+    .recipep1 {
+        background-image: url(images/smooth1.jpg);
+        width: 50%;
+		height: 500px;
+		float: left;
+        background-repeat: no-repeat;
+       
+    }
+    h2 {
+        float: left;
+        width: 40%;
+        color: black;
+        font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+    .bananatext {
+        float: left;
+        width: 40%;
+        color: black;
+        font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+        margin-left: 20px;
+        margin-top: 10px;
+        line-height: 25px;
+    }
+    
+    .bananaRM {
+        padding-top: 20px;
+        width: 20%;
+		color: forestgreen;
+        float: left;
+        margin-left: 20px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        font-weight: 600;
+        
+    }
+    
+    .bananaRM:hover {
+        color: darkseagreen;
+        
+    }
+    
+    .recipep2 {
+        background-image: url(images/cake1.jpg);
+        width: 50%;
+		height: 500px;
+		float: left;
+        background-repeat: no-repeat;
+        clear: both;
+        
+    }
+    
+    
+    
+    
+    
+     /* Page 3 */
+    
+
+   
+     
+    #container2 {
+		max-width:89.500em;
+		width:100%;
+		margin: 0 auto;
+		overflow: hidden;
+        background-color: white;
+	}
+    .fruitsdecr{
+        
+        width: 82%;
+        margin: 0 auto;
+    }
+    
+    .recipebox1 {
+        width : 30%;
+        height: 37.500em;
+        float: left;
+    }
+    .recipe1 {
+        background-image: url(images/waterm.jpeg);
+        height: 22.500em;
+        width: 100%;
+        float:left;
+        
+        
+    }
+    
+    .recdesription {
+        height: 200px;
+        background-color: antiquewhite;
+        padding: 30px;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        width: 83.5%;
+        float:left;
+        
+    }
+    
+    
+      .recipebox2 {
+        width : 30%;
+        height: 37.500em;
+        float: left;
+          margin-left: 5%;
+    }
+    .recipe2 {
+       background-image: url(images/avooo12.jpg);
+        height: 22.500em;
+        width: 100%;
+        float:left;
+        
+    }
+    
+  
+    
+    
+      .recipebox3 {
+        width : 30%;
+        height: 37.500em;
+        float: right;
+          
+    }
+    .recipe3 {
+        background-image: url(images/papaya.jpg);
+        height: 22.500em;
+        width: 100%;
+        float:left;
+        
+    }
+    
+    h1 {
+    	font-size: 16px;
+       margin-bottom: 4px;
+		margin-top: 0.188em;
+		font-weight: 600;
+		font-family: 'Raleway', sans-serif;
+    }
+    
+	p {
+		font-size: 14px;
+       margin-bottom: 0.188em;
+		
+		font-family: 'Raleway', sans-serif;
+	}
+    
+    
+	
+	  .recipebox4 {
+        width : 30%;
+        height: 37.500em;
+        float: left;
+		margin-top: 5.000em; 
+    }
+    .recipe4 {
+        background-image: url(images/pine1.jpg);
+        height: 22.500em;
+        width: 100%;
+        
+    }
+	
+	
+	     .recipebox5 {
+        width : 30%;
+        height: 37.500em;
+        float: left;
+          margin-left: 5%;
+			 margin-top: 5.000em; 
+    }
+    .recipe5 {
+       background-image: url(images/banana.jpg);
+        height: 22.500em;
+        width: 100%;
+        
+    }
+    
+  
+    
+    
+      .recipebox6 {
+        width : 30%;
+        height: 37.500em;
+        float: right;
+		  margin-top: 5.000em; 
+          
+    }
+    .recipe6 {
+        background-image: url(images/orange1.jpg);
+        height: 22.500em;
+        width: 100%;
+        
+    }
+    
+    
+	.toolbar2 {
+		height:5.000em;
+		background-color: white;
+		width: 100%;
+		clear: both;
+	}
+    
+    /* Page 4   */ 
+    
+    
+    .photopage4 {
+        width: 62%;
+        height: 28.750em;
+        background-image: url(images/avo3.jpg);
+        margin: 0 auto;
+        background-repeat: no-repeat;
+    }
+    
+    .textpage4 {
+        width: 74%;
+        line-height: 25px;
+       
+        font-size: 18px;
+        color: black;
+        margin-left: 11%;
+        padding: 10px;
+    }
+    
+   /* Page 5*/
+    
+    .photopage5 {
+        width: 62%;
+        height: 28.750em;
+        background-image: url(images/smoo1.jpeg);
+        margin: 0 auto;
+        background-repeat: no-repeat;
+    }
+    
+   
+    
+    
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
