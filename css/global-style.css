@@ -1,0 +1,545 @@
+@charset "UTF-8";
+/* MYERS RESET*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+/* END MYERS RESET*/
+
+
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* Mobile Layout: 480px and below. */
+
+	body{
+		background-color: #5FACE0;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#container{
+		width: 90.5%;
+		padding: 10px;
+		background-color: #fff;
+		overflow: hidden;
+		max-width: 1232px;
+		margin: 20px auto;
+	}
+	.wrapper{
+		width: 100%;
+		margin: 0 auto;
+		/*background-color: cadetblue;*/
+		padding: 30px 0px;
+		clear: both;
+	}
+	.menu-bar{
+		width: 100%;
+		height: 90px;
+		background-color: white;
+	}
+	ul{
+	 width: 96%;
+	 height: 70px;
+	 margin: 0px auto;
+	 overflow: auto;
+	 list-style: none;
+	 padding-top: 27px;
+
+	}
+	li{
+	  float: left;
+	  padding-right: 15px;
+	  padding-left: 15px;
+		padding-bottom: 10px;
+	}
+	li:hover{
+		border-bottom: 2px solid #7FB800;
+	}
+	ul li a{
+		color: #2880D3;
+	}
+	a{
+		text-decoration: none;
+		font-size: 1.1em;
+	}
+	a:hover{
+		color: #F6511D;
+		
+	}
+	.active{
+		color: #F6511D;
+		border-bottom: 2px solid #7FB800;
+	}
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Love Ya Like A Sister', cursive;
+	}
+	h1{
+		font-size: 2.75em;
+		padding: 20px;
+	}
+	h2{
+		font-size: 2.50em;
+		padding: 10px;
+	}
+	h3{
+		font-size: 1.5em;
+	}
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	.center{
+		text-align: center;
+	}
+	.logo{
+		width: 100%;
+		/*background-color: darkblue;*/
+		float: left;
+		margin-left:0px;
+		margin-top:0px;
+		
+	}
+	.navigation{
+		width: 100%;
+		height: 90px;
+		float: right;
+		/*background-color: darkgoldenrod;*/
+		font-family: 'Love Ya Like A Sister', cursive;
+	}
+	.section-block{
+		width: 100%;
+		background-color: white;
+		float: left;
+		padding-bottom: 20px;
+	}
+	.header{
+		width: 100%;
+		background-image: url("../images/index.jpg");
+		height: 450px;
+		float: left;
+	}
+	.header .wrapper{
+		margin-top: 100px;
+	}
+	.callToAction-btn{
+		background-color: #F6511D ;
+		padding: 15px 70px;
+		border-radius: 50px;
+		margin: 20px;
+		color: white;
+	}
+	.callToAction-btn:hover{
+		background-color: #FFB400;
+		color: rgba(0,0,0,0.50);
+	}
+	.divider{
+		width: 80%;
+		height: 1px;
+		background-color: red;
+		margin: 0 auto;
+		clear: both;
+	}
+	.footer{
+		width: 100%;
+		color:#fff;
+		clear: both;
+		background-color: #2880D3;
+	}
+	.footer-box-1{
+		width:100%;
+		height:150px;
+		margin: 0 auto;
+		float:left;
+		padding:40px 20px 0px 0px;
+	}
+	.footer-box-1 h3{
+		margin-bottom: 30px;
+	}
+	.footer-box-2{
+		width:100%;
+		height:150px;
+		float:left;
+		padding:40px 20px 0px 0px;
+	}
+	.footer-box-3{
+		width:100%;
+		height:150px;
+		float:left;
+		padding:40px 0px 0px 0px;
+	}
+	#fb{
+		margin-left: 60px;
+	}
+	.social{
+		width: 70px;
+		height: 70px;
+		background: white;
+		border-radius: 50px;
+		float: left;
+		margin: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+	
+	body{
+		background-color: #5FACE0;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#container{
+		width: 88.5%;
+		padding: 30px;
+		background-color: #fff;
+		overflow: hidden;
+		max-width: 1232px;
+		margin: 20px auto;
+	}
+	.wrapper{
+		width: 90%;
+		margin: 0 auto;
+		/*background-color: cadetblue;*/
+		padding: 40px;
+		clear: both;
+	}
+	.menu-bar{
+		width: 100%;
+		height: 100px;
+		background-color: white;
+	}
+	ul{
+	 width: 100%;
+	 height: 30px;
+	 margin: 0px auto;
+	 overflow: auto;
+	 list-style: none;
+	 padding-top: 27px;
+
+	}
+	li{
+	  float: left;
+	  padding-right: 10px;
+	  padding-left: 10px;
+	}
+	li:hover{
+		border-bottom: 2px solid #7FB800;
+	}
+	ul li a{
+		color: #2880D3;
+	}
+	a{
+		text-decoration: none;
+		font-size: 1em;
+	}
+	a:hover{
+		color: #F6511D;
+		
+	}
+	.active{
+		color: #F6511D;
+		border-bottom: 2px solid #7FB800;
+	}
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Love Ya Like A Sister', cursive;
+	}
+	h1{
+		font-size: 3.75em;
+		padding: 20px;
+	}
+	h2{
+		font-size: 2.50em;
+		padding: 10px;
+	}
+	h3{
+		font-size: 1.5em;
+	}
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	.center{
+		text-align: center;
+	}
+	.logo{
+		width: 15%;
+		/*background-color: darkblue;*/
+		float: left;
+		margin-left:20px;
+		
+	}
+	.navigation{
+		width: 80%;
+		float: right;
+		/*background-color: darkgoldenrod;*/
+		font-family: 'Love Ya Like A Sister', cursive;
+		
+	}
+	.section-block{
+		width: 100%;
+		background-color: white;
+		float: left;
+		padding-bottom: 20px;
+	}
+	.header{
+		width: 100%;
+		background-image: url("../images/index.jpg");
+		background-color: crimson;
+		float: left;
+	}
+	.header .wrapper{
+		margin-top: 100px;
+	}
+	.callToAction-btn{
+		background-color: coral;
+		padding: 15px 70px;
+		border-radius: 50px;
+		margin: 20px;
+		color: white;
+	}
+	.divider{
+		width: 80%;
+		height: 1px;
+		background-color: red;
+		margin: 0 auto;
+		clear: both;
+		margin-top: 20px;
+	}
+	.footer{
+		width: 100%;
+		height: 450px;
+		color:#fff;
+		clear: both;
+		background-color: #2880D3;
+		font-size: 0.8em;
+	}
+	.footer-box-1{
+		width:25%;
+		height:150px;
+		margin: 0 auto;
+		float:left;
+		padding:70px 20px 20px 20px;
+	}
+	.footer-box-1 h3{
+		margin-bottom: 30px;
+	}
+	.footer-box-1 .callToAction-btn{
+		padding: 15px 40px;
+	}
+	.footer-box-2{
+		width:25%;
+		height:150px;
+		float:left;
+		padding:70px 20px 20px 20px;
+	}
+	.footer-box-3{
+		width:25%;
+		height:150px;
+		float:right;
+		padding:70px 20px 20px 20px;
+	}
+	#fb{
+		margin-left: 6px;
+	}
+	.social{
+		width: 30px;
+		height: 30px;
+		background: white;
+		border-radius: 50px;
+		float: left;
+		margin: 10px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+	body{
+		background-color: #5FACE0;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#container{
+		width: 100%;
+		margin: 0 auto;
+		padding: 30px;
+		overflow: hidden;
+		max-width: 1200px;
+		margin-top: 25px;
+	}
+	.wrapper{
+		width: 80%;
+		margin: 0 auto;
+		/*background-color: cadetblue;*/
+		padding: 40px;
+		clear: both;
+	}
+	.menu-bar{
+		width: 100%;
+		height: 100px;
+		background-color: white;
+	}
+	ul{
+	 width: 96%;
+	 height: 30px;
+	 margin: 0px auto;
+	 overflow: auto;
+	 list-style: none;
+	 padding-top: 27px;
+
+	}
+	li{
+	  float: left;
+	  padding-right: 15px;
+	  padding-left: 15px;
+	}
+	li:hover{
+		border-bottom: 2px solid #7FB800;
+	}
+	ul li a{
+		color: #2880D3;
+	}
+	a{
+		text-decoration: none;
+		font-size: 1.1em;
+	}
+	a:hover{
+		color: #F6511D;
+		
+	}
+	.active{
+		color: #F6511D;
+		border-bottom: 2px solid #7FB800;
+	}
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Love Ya Like A Sister', cursive;
+	}
+	h1{
+		font-size: 3.75em;
+		padding: 20px;
+	}
+	h2{
+		font-size: 2.50em;
+		padding: 10px;
+	}
+	h3{
+		font-size: 1.5em;
+	}
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	.center{
+		text-align: center;
+	}
+	.logo{
+		width: 15%;
+		/*background-color: darkblue;*/
+		float: left;
+		margin-left:20px;
+		
+	}
+	.navigation{
+		width: 60%;
+		float: right;
+		/*background-color: darkgoldenrod;*/
+		font-family: 'Love Ya Like A Sister', cursive;
+		
+	}
+	.section-block{
+		width: 100%;
+		background-color: white;
+		float: left;
+		padding-bottom: 20px;
+	}
+	.header{
+		width: 100%;
+		background-image: url("../images/index.jpg");
+		background-color: crimson;
+		float: left;
+	}
+	.header .wrapper{
+		margin-top: 100px;
+	}
+	.callToAction-btn{
+		background-color: coral;
+		padding: 15px 70px;
+		border-radius: 50px;
+		margin: 20px;
+		color: white;
+	}
+	.divider{
+		width: 80%;
+		height: 1px;
+		background-color: red;
+		margin: 0 auto;
+		clear: both;
+		margin-top: 20px;
+	}
+	.footer{
+		width: 100%;
+		height: 450px;
+		color:#fff;
+		clear: both;
+		background-color: #2880D3;
+	}
+	.footer-box-1{
+		width:29.1%;
+		height:150px;
+		margin: 0 auto;
+		float:left;
+		padding:70px 20px 20px 20px;
+		border-right: 1px solid white;
+	}
+	.footer-box-1 h3{
+		margin-bottom: 30px;
+	}
+	.footer-box-2{
+		width:29.1%;
+		height:150px;
+		float:left;
+		padding:70px 20px 20px 20px;
+		border-right: 1px solid white;
+	}
+	.footer-box-3{
+		width:29%;
+		height:150px;
+		float:right;
+		padding:70px 20px 20px 20px;
+	}
+	.social{
+		width: 70px;
+		height: 70px;
+		background: white;
+		border-radius: 50px;
+		float: left;
+		margin: 10px;
+	}
+	
+
+}
